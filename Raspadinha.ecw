@@ -1,0 +1,37 @@
+; EclipseCrossword (1.2.61) crossword puzzle
+; Get EclipseCrossword free at:
+; http://www.eclipsecrossword.com
+
+Title:  Raspadinha do Luisão
+Width:  30
+Height:  30
+CodePage:  0
+Author:  vini
+Copyright:  © 2020
+
+; ------------------------------------------------------------
+* Across words
+; ------------------------------------------------------------
+
+DMA:  14, 17:  DMA
+QUAD CORE:  7, 13:  QUAD CORE
+REGISTRADORES:  15, 15:  REGISTRADORES
+MEMÓRIA DE MASSA:  9, 24:  MEMÓRIA DE MASSA
+CPU:  13, 22:  CPU
+RAM:  9, 18:  RAM
+
+; ------------------------------------------------------------
+* Down words
+; ------------------------------------------------------------
+
+EPROM:  15, 13:  EPROM
+FLASH:  9, 11:  FLASH
+CS:  12, 13:  CS
+ADDRESS BUS:  23, 14:  ADDRESS BUS
+ROM:  21, 15:  ROM
+ULA:  15, 22:  ULA
+I5:  14, 24:  I5
+I7:  18, 15:  I7
+DATA BUS:  19, 20:  DATA BUS
+DUAL CORE:  10, 16:  DUAL CORE
+
