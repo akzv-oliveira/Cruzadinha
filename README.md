@@ -1,1 +1,0 @@
-# Raspadinha-do-Luisão
