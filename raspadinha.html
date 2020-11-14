@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Raspadinha</title>
 </head>
+
 <body>
     <div class="all">
         <header>
@@ -16,27 +18,40 @@
 
         <div id="ladoA">
         </div>
-            
+
         <div id="meio">
 
-            <div id="flash"> <!-- RESPOSTA 1 (FLASH) -->
-                <input id="f" onkeyup="mostraTotal(this);" type="text" value="">    <br>	
-                <input id="l" onkeyup="mostraTotal(this);" type="text" value="">	<br>		
-                <input id="a" onkeyup="mostraTotal(this);" type="hidden" value="">	<br>
-                <input id="s" onkeyup="mostraTotal(this);" type="text" value="">    <br>
-                <input id="h" onkeyup="mostraTotal(this);" type="text" value="">    <br>
+            <div id="flash">
+                <!-- RESPOSTA 1 (FLASH) -->
+                <input id="" onkeyup="mostraTotal(this);" type="text" value="1" readonly="readonly">   <br>
+                <input id="f" onkeyup="mostraTotal(this);" type="text" maxlength="1">   <br>
+                <input id="l" onkeyup="mostraTotal(this);" type="text" maxlength="1">   <br>
+                <input id="a" onkeyup="mostraTotal(this);" type="hidden" maxlength="1"> <br>
+                <input id="s" onkeyup="mostraTotal(this);" type="text" maxlength="1">   <br>
+                <input id="h" onkeyup="mostraTotal(this);" type="text" maxlength="1">   <br>
             </div>
-            <div id="quad"> <!-- RESPOSTA 2 (QUAD CORE)-->
-                <input id="q" onkeyup="mostraTotal(this);" type="text" value="">
-                <input id="u" onkeyup="mostraTotal(this);" type="text" value="">	
-                <input id="a" onkeyup="mostraTotal(this);" type="text" value="">
-                <input id="d" onkeyup="mostraTotal(this);" type="text" value="">
-                <input id=""  onkeyup="mostraTotal(this);" type="text" value="">
-                <input id="c" onkeyup="mostraTotal(this);" type="text" value="">
-                <input id="o" onkeyup="mostraTotal(this);" type="text" value="">
-                <input id="r" onkeyup="mostraTotal(this);" type="text" value="">
-                <input id="e" onkeyup="mostraTotal(this);" type="text" value="">
+
+            <div id="quad">
+                <!-- RESPOSTA 2 (QUAD CORE)-->
+                <input id="" onkeyup="mostraTotal(this);" type="text" value="2" readonly="readonly">
+                <input id="q" onkeyup="mostraTotal(this);" type="text" maxlength="1">
+                <input id="u" onkeyup="mostraTotal(this);" type="text" maxlength="1">
+                <input id="a" onkeyup="mostraTotal(this);" type="text" maxlength="1">
+                <input id="d" onkeyup="mostraTotal(this);" type="text" maxlength="1">
+                <input id=""  onkeyup="mostraTotal(this);" type="text" maxlength="1">
+                <input id="c" onkeyup="mostraTotal(this);" type="text" maxlength="1">
+                <input id="o" onkeyup="mostraTotal(this);" type="text" maxlength="1">
+                <input id="r" onkeyup="mostraTotal(this);" type="text" maxlength="1">
+                <input id="e" onkeyup="mostraTotal(this);" type="text" maxlength="1">
             </div>
+
+            <div id="cs">
+                <input id="" onkeyup="mostraTotal(this);" type="text" value="3" readonly="readonly"> <br>
+                <input id="c" onkeyup="mostraTotal(this);" type="hidden" maxlength="1"> <br>
+                <input id="s" onkeyup="mostraTotal(this);" type="text" maxlength="1">   <br>
+
+            </div>
+
         </div>
 
         <div id="ladoB">
@@ -44,4 +59,5 @@
 
     </div>
 </body>
+
 </html>

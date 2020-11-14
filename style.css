@@ -32,19 +32,19 @@ header h2 {
 
 #ladoA {
     width: 20%;
-    height: 88%;
+    height: 87%;
     /* background-color:yellow; */
     float: left;
 }
 #meio {
     width: 70%;
-    height: 88%;
+    height: 87%;
     /* background-color: orange; */
     float: left;
 }
 #ladoB {
     width: 10%;
-    height: 88%;
+    height: 87%;
     /* background-color: orangered; */
     float: right;
 }
@@ -53,19 +53,33 @@ input {
     width: 40px;
     height: 30px;
     margin: -2px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 #flash {
-    width: 220px;
-    /* background-color: red; */
+    width: 80px;
     position: relative;
-    left: 88px;
+    left: 132px;
     top: 94px;
 }
-#l {
+#flash #l {
     margin-bottom: 15px;
 }
+
 #quad {
     position: relative;
     width: 450px;
+}
+
+#cs {
+    position: relative;
+    left: 264px;
+    top: -64px;
+    width: 53px;
+    z-index: -1;
+}
+
+#cs #s {
+    margin-top: 15px;
 }
