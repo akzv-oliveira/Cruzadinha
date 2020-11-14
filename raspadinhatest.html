@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TESTE</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -12,7 +13,7 @@
         <tr>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
-            <td>F</td>
+            <td style="border:none"><input id="F" onkeyup="mostraTotal(this);" type="text" maxlength="1" placeholder="¹"></td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
@@ -35,7 +36,7 @@
         <tr>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
-            <td>L</td>
+            <td style="border:none"><input id="L" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
@@ -56,15 +57,15 @@
             <td style= "border:none;"> </td>
         </tr>
         <tr>
-            <td>Q</td>
-            <td>U</td>
-            <td>A</td>
-            <td>D</td>
-            <td> </td>
-            <td>C</td>
-            <td>O</td>
-            <td>R</td>
-            <td>E</td>
+            <td style="border:none"><input id="Q" onkeyup="mostraTotal(this);" type="text" maxlength="1" placeholder="²"></td>
+            <td style="border:none"><input id="U" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="A" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="D" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="vazio" readonly="readonly"> </td>
+            <td style="border:none"><input id="C" onkeyup="mostraTotal(this);" type="text" maxlength="1" placeholder="³"></td>
+            <td style="border:none"><input id="O" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="R" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="E" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
@@ -81,67 +82,21 @@
         <tr>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
-            <td>S</td>
+            <td style="border:none"><input id="S" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
-            <td>S</td>
+            <td style="border:none"><input id="S" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
-            <td>P</td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td>A</td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-        </tr>
-        <tr>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td>H</td>
+            <td style="border:none"><input id="P" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
-            <td>R</td>
-            <td>E</td>
-            <td>G</td>
-            <td>I</td>
-            <td>S</td>
-            <td>T</td>
-            <td>R</td>
-            <td>A</td>
-            <td>D</td>
-            <td>O</td>
-            <td>R</td>
-            <td>E</td>
-            <td>S</td>
-        </tr>
-        <tr>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td>D</td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td>O</td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td>O</td>
-            <td style= "border:none;"> </td>
-            <td>D</td>
+            <td style="border:none"><input id="A" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
@@ -150,44 +105,44 @@
         <tr>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td>U</td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td>D</td>
-            <td>M</td>
-            <td>A</td>
+            <td style="border:none"><input id="H" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
-            <td>M</td>
             <td style= "border:none;"> </td>
-            <td>R</td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
+            <td style="border:none"><input id="R" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="E" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="G" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="I" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="S" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="T" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="R" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="A" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="D" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="O" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="R" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="E" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="S" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
         </tr>
         <tr>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
-            <td>R</td>
-            <td>A</td>
-            <td>M</td>
+            <td style= "border:none;"> </td>
+            <td style="border:none"><input id="D" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style="border:none"><input id="O" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
+            <td style="border:none"><input id="O" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
             <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td>E</td>
+            <td style="border:none"><input id="O" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
@@ -197,7 +152,31 @@
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
-            <td>L</td>
+            <td style="border:none"><input id="U" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style="border:none"><input id="D" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="M" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="A" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style="border:none"><input id="M" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style= "border:none;"> </td>
+            <td style="border:none"><input id="R" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+        </tr>
+        <tr>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style="border:none"><input id="R" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="A" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="M" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
@@ -209,8 +188,7 @@
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td>S</td>
+            <td style="border:none"><input id="E" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
@@ -220,7 +198,7 @@
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
-            <td> - </td>
+            <td style="border:none"><input id="L" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
@@ -229,34 +207,11 @@
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
-            <td>D</td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td>S</td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
-        </tr>
-        <tr>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td>C</td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td>A</td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td> - </td>
+            <td style="border:none"><input id="S" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
@@ -266,20 +221,43 @@
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
-            <td>O</td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td>C</td>
-            <td>P</td>
-            <td>U</td>
+            <td style="border:none"><input id="vazio" readonly="readonly"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
-            <td>T</td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
-            <td>B</td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style="border:none"><input id="D" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style="border:none"><input id="S" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+        </tr>
+        <tr>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style="border:none"><input id="C" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style="border:none"><input id="A" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style="border:none"><input id="vazio" readonly="readonly"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
@@ -289,20 +267,20 @@
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
-            <td>R</td>
+            <td style="border:none"><input id="O" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style="border:none"><input id="C" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="P" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="U" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td>L</td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td>A</td>
+            <td style="border:none"><input id="T" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
-            <td>U</td>
+            <td style="border:none"><input id="B" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
@@ -311,22 +289,22 @@
         <tr>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
-            <td>M</td>
-            <td>E</td>
-            <td>M</td>
-            <td>O</td>
-            <td>R</td>
-            <td>I</td>
-            <td>A</td>
-            <td> </td>
-            <td>D</td>
-            <td>E</td>
-            <td> </td>
-            <td>M</td>
-            <td>A</td>
-            <td>S</td>
-            <td>S</td>
-            <td>A</td>
+            <td style= "border:none;"> </td>
+            <td style="border:none"><input id="R" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style="border:none"><input id="L" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style="border:none"><input id="A" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style="border:none"><input id="U" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
@@ -334,22 +312,22 @@
         <tr>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td>B</td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
-            <td style= "border:none;"> </td>
+            <td style="border:none"><input id="M" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="E" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="M" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="O" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="R" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="I" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="A" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="vazio" readonly="readonly"> </td>
+            <td style="border:none"><input id="D" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="E" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="vazio" readonly="readonly"> </td>
+            <td style="border:none"><input id="M" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="A" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="S" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="S" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style="border:none"><input id="A" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
@@ -367,7 +345,7 @@
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
-            <td>U</td>
+            <td style="border:none"><input id="B" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
@@ -390,7 +368,30 @@
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
-            <td> S </td>
+            <td style="border:none"><input id="U" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+        </tr>
+        <tr>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style= "border:none;"> </td>
+            <td style="border:none"><input id="S" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
             <td style= "border:none;"> </td>
@@ -402,5 +403,5 @@
         </tr>
     </table>
 </body>
-
 </html>
+<script type="text/javascript" src="raspadinha.js"></script>
