@@ -1,65 +1,87 @@
 Perguntas da Raspadinha
-	
-1 - Qual o componente fundamental para calcular 
-e realizar multitarefas dentro do computador? 
-R: CPU
----------------------------------------------------------------------	
-2 - Qual o nome dado ao circuito responsável 
-por realizar operações lógicas?
-R: ULA	
----------------------------------------------------------------------	
-3 - Qual o nome dado as memórias
- internas dos microprocessadores?
-R: Registradores	
----------------------------------------------------------------------
-4 - Memória Volátil responsável por 
-armazenar dados de forma temporária no computador:
-R: RAM	
----------------------------------------------------------------------	
-5 - Nome dado a memória que permite apenas a 
-sua leitura e acesso:	
-R: ROM
----------------------------------------------------------------------
-6 - Nome dado a memória não volátil que só pode 
-ser apagada de forma manual:
-R: EPROM
----------------------------------------------------------------------	
-7 - Memória na qual é possivel armazenar 
+
+1 - Memória na qual é possivel armazenar 
 dados não voláteis com uma maior mobilidade:
+
 R: FLASH
----------------------------------------------------------------------
-8 - Nome dado as memória auxiliares capazes de amazenar grandes quantidades de informação, mesmo com o computador desligado:
-R: Memória de Massa
----------------------------------------------------------------------
-9 - Qual o nome dado componente na qual é possivel acessar a memória do sistema independentemente da CPU?
-R: DMA	
----------------------------------------------------------------------
-10 - Componente responsável por selecionar ou 
+---------------------------------------------------------------------------------
+2 - Nome dado a um microprocessador com 
+quatro núcleos de processamento:
+
+R: Quad Core
+---------------------------------------------------------------------------------
+3 - Componente responsável por selecionar ou 
 alternar circuitos interados:
-R: CS	
----------------------------------------------------------------------
-12 - Qual o Barramento responsável por tranferir 
+
+R: CS
+---------------------------------------------------------------------------------
+4 - Nome dado a memória não volátil que só pode 
+ser apagada de forma manual:
+
+R: EPROM
+---------------------------------------------------------------------------------
+5 - Qual o Barramento responsável por tranferir 
 dados pelo endereço?
+
 R: Address Bus
----------------------------------------------------------------------
+---------------------------------------------------------------------------------
+6 - Qual o nome dado as memórias
+ internas dos microprocessadores?
+14
+R: Registradores
+---------------------------------------------------------------------------------
+7 - Nome dado aos microprocessadores avançados da 
+fabricante Intel com tecnologia litográfica em 14nm:
+
+R: I7
+---------------------------------------------------------------------------------
+8 - Nome dado a memória que permite apenas a 
+sua leitura e acesso:	
+
+R: ROM
+---------------------------------------------------------------------------------
+9 - Nome dado a um microprocessador com 
+dois núcleos de processamento:
+
+R: Dual Core
+---------------------------------------------------------------------------------
+10 - Qual o nome dado componente na qual é possivel 
+acessar a memória do sistema independentemente da CPU?
+
+R: DMA	
+---------------------------------------------------------------------------------	
+11 - Memória Volátil responsável por 
+armazenar dados de forma temporária no computador:
+
+R: RAM
+---------------------------------------------------------------------------------
 12 - Qual o Barramento responsável pelo
 transporte dos dados?
-R: Data Bus	
----------------------------------------------------------------------
-12 - Nome dado aos microprocessadores 
+
+R: Data Bus
+---------------------------------------------------------------------------------
+13 - Qual o componente fundamental para calcular 
+e realizar multitarefas dentro do computador? 
+
+R: CPU
+---------------------------------------------------------------------------------
+14 - Qual o nome dado ao circuito responsável 
+por realizar operações lógicas?
+
+R: ULA	
+---------------------------------------------------------------------------------
+15 - Nome dado as memória auxiliares capazes de amazenar 
+grandes quantidades de informação, mesmo com o 
+computador desligado:
+
+R: Memória de Massa
+---------------------------------------------------------------------------------
+16 - Nome dado aos microprocessadores 
 intermediária da fabricante Intel:
-R: I5		-------------------------------------------------------------------
-13 - Nome dado aos microprocessadores avançados da 
-fabricante Intel com tecnologia litográfica em 14nm:
-R: I7
----------------------------------------------------------------------
-14 - Nome dado a um microprocessador com 
-dois núcleos de processamento:
-R: Dual Core	
----------------------------------------------------------------------
-15 - Nome dado a um microprocessador com 
-quatro núcleos de processamento:
-R: Quad Core	
+
+R: I5
+---------------------------------------------------------------------------------
+	
 	
 	
 	
