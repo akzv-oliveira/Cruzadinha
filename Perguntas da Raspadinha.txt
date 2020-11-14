@@ -38,11 +38,12 @@ R: DMA
 alternar circuitos interados:
 R: CS	
 ---------------------------------------------------------------------
-12 - Qual o Barramento responsável por tranferir dados pelo endereço?
+12 - Qual o Barramento responsável por tranferir 
+dados pelo endereço?
 R: Address Bus
 ---------------------------------------------------------------------
 12 - Qual o Barramento responsável pelo
- transporte dos dados?
+transporte dos dados?
 R: Data Bus	
 ---------------------------------------------------------------------
 12 - Nome dado aos microprocessadores 
