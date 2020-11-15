@@ -29,7 +29,7 @@ td {
 
 .all {
     width: 100%;
-    height: 80%;
+    height: 75%;
 }
 
 header {
@@ -113,5 +113,18 @@ input {
     border: none;
     width:27px;
     height: 27px;
+}
+.foo {
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    border-top:3px solid #149C5B;
 }
 
