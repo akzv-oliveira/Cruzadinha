@@ -7,8 +7,8 @@ body {
     padding: 0;
     position: absolute;
     background-color:rgb(185, 255, 153);
-    
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -16,8 +16,6 @@ body {
 }
 
 .tabela {
-    /* width:10px;
-    height:20px; */
     margin: 12px 0 0 0;
 }
 
@@ -26,19 +24,13 @@ td {
     color:rgb(20, 20, 20);
     font-weight: bold;
     text-align: center;
-
+    border-radius: 2px;
 }
-
-
 
 .all {
     width: 100%;
     height: 80%;
-    /* background-color: blueviolet; */
-    
-
 }
-
 
 header {
     width: 100%;
@@ -72,11 +64,6 @@ header h4 {
     padding: 10px;
 }
 
-/* #ladoA {
-    width: 20%;
-    height: 87%;
-    float: left;
-} */
 #meio {
     width: 60%;
     height: 88%x;
@@ -85,7 +72,6 @@ header h4 {
     justify-content: center;
     align-items: center;
     z-index: 2;
-    /* margin: auto; */
 }
 
 #ladoB {
@@ -94,16 +80,8 @@ header h4 {
     float: right;
     scroll-behavior: smooth;
     overflow-y: scroll;
-    overflow-x: hidden;
     padding-top:20px;
     
-}
-
-.dicas pai {
-    display:flex;
-    align-items: center;
-    justify-content:center;
-    text-align:center;
 }
 
 .titulo_dicas {
@@ -112,21 +90,14 @@ header h4 {
     color:rgb(4, 41, 10);
 }
 
-
-
 li {
-    /* display:flex;
-    justify-content:center; */
     font-size: 13px;
-    /* width:30%; */
     margin: 0 80px 0 60px;
     height:100%;
     text-align: center;
-    z-index: 1;
     color:  rgb(28, 92, 25);
     text-transform: uppercase;
     font-weight: bold;
-    /* margin-left:40px; */
 }
 
 input {
@@ -134,6 +105,7 @@ input {
     height: 25px;
     text-align: center;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 #vazio {
