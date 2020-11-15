@@ -5,25 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Raspadinha</title>
+    <title>Cruzadinha</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Sans+Pro&family=Ubuntu&display=swap');
+        ;
+    </style>
+
+
 </head>
 
 <body>
-    <div class="all">
-        <header>
-            <h1>
-                PALAVRAS CRUZEDS
-            </h1>
-        </header>
 
-        <div id="ladoA">
+    <header>
+
+        <img class="icone-header" src="microprocessador.png">
+
+        <div class="titulo">
+            <h1>PALAVRAS CRUZADAS</h1> <br>
+            <h4>ARQUITETURA DE COMPUTADORES</h4>
         </div>
 
+
+    </header>
+
+
+    <div class="all">
+
+        <!-- <div id="ladoA">
+        </div> -->
+
         <div id="meio">
-            <table border="0">
+            <table border="0" class="tabela">
                 <tr>
                     <td></td>
-                    <td style="text-align:right;">¹</td>
+                    <td>1 -</td>
                     <td><input id="F" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
                     <td></td>
                     <td></td>
@@ -45,15 +60,15 @@
                     <td></td>
                 </tr>
                 <tr>
-                    <td style="text-align: center;">²</td>
+                    <td>2 -</td>
                     <td></td>
                     <td><input id="L" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
                     <td></td>
                     <td></td>
-                    <td style="text-align: center;">³</td>
+                    <td>3</td>
                     <td></td>
                     <td></td>
-                    <td>⁴</td>
+                    <td>4</td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -84,7 +99,7 @@
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td></td>
+                    <td>5</td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -102,10 +117,10 @@
                     <td><input id="P" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
                     <td></td>
                     <td></td>
+                    <td>7</td>
                     <td></td>
                     <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>8</td>
                     <td></td>
                     <td><input id="A" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
                     <td></td>
@@ -117,11 +132,11 @@
                     <td></td>
                     <td></td>
                     <td><input id="H" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
+                    <td>9</td>
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>6 -</td>
                     <td><input id="R" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
                     <td><input id="E" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
                     <td><input id="G" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
@@ -148,7 +163,7 @@
                     <td><input id="O" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
                     <td></td>
                     <td></td>
-                    <td></td>
+                    <td><input id=7" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
                     <td></td>
                     <td></td>
                     <td><input id="O" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
@@ -166,7 +181,7 @@
                     <td><input id="U" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
                     <td></td>
                     <td></td>
-                    <td></td>
+                    <td>10 - </td>
                     <td><input id="D" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
                     <td><input id="M" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
                     <td><input id="A" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
@@ -184,7 +199,7 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td></td>
+                    <td>11 - </td>
                     <td><input id="R" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
                     <td><input id="A" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
                     <td><input id="M" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
@@ -218,7 +233,7 @@
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td></td>
+                    <td>12</td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -260,7 +275,7 @@
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td></td>
+                    <td>14</td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -280,7 +295,7 @@
                     <td></td>
                     <td><input id="O" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
                     <td></td>
-                    <td></td>
+                    <td>13 -</td>
                     <td><input id="C" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
                     <td><input id="P" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
                     <td><input id="U" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
@@ -305,7 +320,7 @@
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td></td>
+                    <td>16</td>
                     <td><input id="L" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
                     <td></td>
                     <td></td>
@@ -322,7 +337,7 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td></td>
+                    <td>15 -</td>
                     <td><input id="M" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
                     <td><input id="E" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
                     <td><input id="M" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
@@ -351,7 +366,7 @@
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td></td>
+                    <td><input id="5" onkeyup="mostraTotal(this);" type="text" maxlength="1"></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -417,42 +432,60 @@
 
 
         <div id="ladoB">
-            <ol>
-                <li>Qual a memória que você pode levar com você?</li> <br>
+            <ol class="dicas_pai">
+                <h2 class="titulo_dicas"> DICAS PARA RESOLUÇÃO 📋</h2>
+                <li>Memória na qual é possivel armazenar
+                    dados com uma maior mobilidade:</li> <br>
+
                 <li>Nome dado a um microprocessador com
                     quatro núcleos de processamento: </li> <br>
+
                 <li>Componente responsável por selecionar ou
                     alternar circuitos interados:</li> <br>
+
                 <li>Nome dado a memória não volátil que só pode
                     ser apagada de forma manual:</li> <br>
+
                 <li>Qual o Barramento responsável por tranferir
                     dados pelo endereço?</li> <br>
+
                 <li>Qual o nome dado as memórias
                     internas dos microprocessadores?</li> <br>
+
                 <li>Nome dado aos microprocessadores avançados da
                     fabricante Intel com tecnologia litográfica em 14nm:</li> <br>
+
                 <li>Nome dado a memória que permite apenas a
                     sua leitura e acesso:</li> <br>
+
                 <li>Nome dado a um microprocessador com
                     dois núcleos de processamento:</li> <br>
+
                 <li>Qual o nome dado componente na qual é possivel acessar a memória do sistema independentemente da
                     CPU?</li> <br>
+
                 <li>Memória Volátil responsável por
                     armazenar dados de forma temporária no computador:</li> <br>
+
                 <li>Qual o Barramento responsável pelo
                     transporte dos dados?</li> <br>
+
                 <li> Qual o componente fundamental para calcular
                     e realizar multitarefas dentro do computador? </li> <br>
+
                 <li>Qual o nome dado ao circuito responsável
                     por realizar operações lógicas?</li> <br>
-                <li>Nome dado as memória auxiliares capazes de amazenar grandes quantidades de informação, mesmo com o
+
+                <li>Nome dado as memória auxiliares capazes de amazenar grandes quantidades de informação, mesmo com
+                    o
                     computador desligado:</li> <br>
-                <li>Nome dado aos microprocessadores 
+                <li>Nome dado aos microprocessadores
                     intermediária da fabricante Intel:</li> <br>
             </ol>
         </div>
 
     </div>
+
 </body>
 
 </html>
